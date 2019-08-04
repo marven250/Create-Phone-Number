@@ -1,0 +1,7 @@
+function createPhoneNumber(numbers){
+    var formatter= "(xxx) xxx-xxxx"
+     for(var i=0; i<numbers.length; i++){
+           formatter= formatter.replace("x", numbers[i])
+      }
+      return formatter
+}
